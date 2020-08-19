@@ -10,7 +10,7 @@ This CocoaPods library helps you perform calculation.
 
   spec.homepage     = "https://github.com/red0509/Red"
   spec.license      = { :type => "MIT", :file => "LICENSE" }
-  spec.author       = { "red0509" => "paapvlov@gmail.com" }
+  spec.author       = { "red0509" => "paapavlov@gmail.com" }
 
   spec.ios.deployment_target = "13.6"
   spec.swift_version = "5"
