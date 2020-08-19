@@ -16,6 +16,7 @@
 		12F2B24724EDADE8008347BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12F2B24524EDADE8008347BA /* Main.storyboard */; };
 		12F2B24924EDADED008347BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12F2B24824EDADED008347BA /* Assets.xcassets */; };
 		12F2B24C24EDADED008347BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12F2B24A24EDADED008347BA /* LaunchScreen.storyboard */; };
+		12F2B25224EDB0BF008347BA /* Red.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F2B25124EDB0BF008347BA /* Red.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,7 @@
 		12F2B24824EDADED008347BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		12F2B24B24EDADED008347BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		12F2B24D24EDADED008347BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12F2B25124EDB0BF008347BA /* Red.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Red.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				12F2B22224EDAD4E008347BA /* Red.h */,
 				12F2B22324EDAD4E008347BA /* Info.plist */,
+				12F2B25124EDB0BF008347BA /* Red.swift */,
 			);
 			path = Red;
 			sourceTree = "<group>";
@@ -202,6 +205,7 @@
 				TargetAttributes = {
 					12F2B21E24EDAD4E008347BA = {
 						CreatedOnToolsVersion = 11.6;
+						LastSwiftMigration = 1160;
 					};
 					12F2B22724EDAD4F008347BA = {
 						CreatedOnToolsVersion = 11.6;
@@ -263,6 +267,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12F2B25224EDB0BF008347BA /* Red.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +442,7 @@
 		12F2B23424EDAD4F008347BA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = TZSWHX7RVS;
@@ -453,6 +459,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.app.Red;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -461,6 +468,7 @@
 		12F2B23524EDAD4F008347BA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = TZSWHX7RVS;
@@ -485,6 +493,7 @@
 		12F2B23724EDAD4F008347BA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TZSWHX7RVS;
 				INFOPLIST_FILE = RedTests/Info.plist;
@@ -503,6 +512,7 @@
 		12F2B23824EDAD4F008347BA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TZSWHX7RVS;
 				INFOPLIST_FILE = RedTests/Info.plist;
