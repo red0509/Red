@@ -1,0 +1,6 @@
+coverage_service: cobertura_xml
+xcodeproj: Red.xcodeproj
+scheme: Red
+output_directory: reports
+ignore:
+  - RedTests/*
