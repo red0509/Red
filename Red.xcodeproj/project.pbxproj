@@ -17,6 +17,7 @@
 		12F2B24924EDADED008347BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12F2B24824EDADED008347BA /* Assets.xcassets */; };
 		12F2B24C24EDADED008347BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12F2B24A24EDADED008347BA /* LaunchScreen.storyboard */; };
 		12F2B25224EDB0BF008347BA /* Red.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F2B25124EDB0BF008347BA /* Red.swift */; };
+		12F2B25424EDB371008347BA /* .travis.yml in Resources */ = {isa = PBXBuildFile; fileRef = 12F2B25324EDB371008347BA /* .travis.yml */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		12F2B24B24EDADED008347BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		12F2B24D24EDADED008347BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		12F2B25124EDB0BF008347BA /* Red.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Red.swift; sourceTree = "<group>"; };
+		12F2B25324EDB371008347BA /* .travis.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .travis.yml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +78,7 @@
 		12F2B21524EDAD4E008347BA = {
 			isa = PBXGroup;
 			children = (
+				12F2B25324EDB371008347BA /* .travis.yml */,
 				12F2B22124EDAD4E008347BA /* Red */,
 				12F2B22C24EDAD4F008347BA /* RedTests */,
 				12F2B23E24EDADE8008347BA /* RedExamples */,
@@ -240,6 +243,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12F2B25424EDB371008347BA /* .travis.yml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
